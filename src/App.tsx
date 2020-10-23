@@ -1,8 +1,14 @@
 import React from 'react';
 import './App.css';
+import ShowDetails from './components/ShowDetails';
 
 function App() {
-  return <h1>Hey</h1>;
+  return (
+    <div className='container'>
+      <h1>Visibility Toggle</h1>
+      <ShowDetails />
+    </div>
+  );
 }
 
 export default App;

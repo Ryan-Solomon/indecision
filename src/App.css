@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+button {
+  padding: 0.3rem;
+  border-radius: 3px;
+  background: hsl(0, 0%, 50%);
+  color: hsl(0, 0%, 80%);
+  margin: 1rem;
+  align-items: center;
+}
