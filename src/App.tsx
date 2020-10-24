@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import ShowDetails from './components/ShowDetails';
+import Header from './components/Header';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className='container'>
-      <h1>Visibility Toggle</h1>
-      <ShowDetails />
+      <Header />
+      <Form />
     </div>
   );
 }
